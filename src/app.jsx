@@ -8,13 +8,13 @@ export default function App() {
   return (
     <div className="container">
       <h1>Components</h1>
-      <h2>This is a button component</h2>
+      <p>This is a button component</p>
       <Button title="Click me" />
-      <h2>This is a `basic` card component</h2>
+      <p>This is a `basic` card component</p>
       <Card title="Go to office" type="basic" />
-      <h2>This is a `success` card component</h2>
+      <p>This is a `success` card component</p>
       <Card title="Go to office" type="success" />
-      <h2>This is a `TextInput` component</h2>
+      <p>This is a `TextInput` component</p>
       <TextInput value="Text input" />
     </div>
   );

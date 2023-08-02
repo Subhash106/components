@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { ModuleFederationPlugin } = require("webpack").container;
 
 module.exports = {
   mode: "development",
@@ -35,6 +36,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "index.html"),
       inject: true,
+    }),
+    new ModuleFederationPlugin({
+      name: "components",
+      filename: "remoteEntry.js",
+      exposes: {
+        "./Button": "./src/components/button/index.jsx",
+        "./TextInput": "./src/components/input/index.jsx",
+        "./Card": "./src/components/card/index.jsx",
+      },
     }),
   ],
 };
