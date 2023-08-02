@@ -9,11 +9,11 @@ export default function App() {
     <div className="container">
       <h1>Components</h1>
       <p>This is a button component</p>
-      <Button title="Click me" />
+      <Button>Click me</Button>
       <p>This is a `basic` card component</p>
-      <Card title="Go to office" type="basic" />
+      <Card type="basic">Go to office</Card>
       <p>This is a `success` card component</p>
-      <Card title="Go to office" type="success" />
+      <Card type="success">Go to office</Card>
       <p>This is a `TextInput` component</p>
       <TextInput value="Text input" />
     </div>
