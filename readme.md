@@ -4,7 +4,7 @@ This package has UI components like Card, Button and TextInput that can be used 
 
 ## Uses
 
-<!--
+```
 import {Card, Button, TextInput} from '@subashchandra/components'
 
 export default function App() {
@@ -22,6 +22,6 @@ export default function App() {
     </div>
   );
 }
--->
+```
 
 You can learn more on [github](https://github.com/Subhash106/components)
