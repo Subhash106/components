@@ -18,5 +18,11 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "name": "@subashchandra/components",
+  "description": "This repo has many UI components that can be resused in any javascript application.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Subash Chandra",
+  "license": "ISC"
 }

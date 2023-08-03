@@ -1,8 +1,10 @@
 import React from "react";
 
-import Button from "./components/button/index.jsx";
-import Card from "./components/card/index.jsx";
-import TextInput from "./components/input/index.jsx";
+// import Button from "./components/button/index.jsx";
+// import Card from "./components/card/index.jsx";
+// import TextInput from "./components/input/index.jsx";
+
+import { Button, Card, TextInput } from "../index";
 
 export default function App() {
   return (
