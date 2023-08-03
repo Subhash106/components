@@ -20,9 +20,14 @@
     "webpack-dev-server": "^4.15.1"
   },
   "name": "@subashchandra/components",
-  "description": "This repo has many UI components that can be resused in any javascript application.",
-  "version": "1.0.2",
+  "description": "This package has UI components like Card, Button and TextInput that can be used in react applications..",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "Subash Chandra",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "component",
+    "UI"
+  ]
 }
