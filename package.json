@@ -21,7 +21,7 @@
   },
   "name": "@subashchandra/components",
   "description": "This repo has many UI components that can be resused in any javascript application.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "Subash Chandra",
   "license": "ISC"

@@ -1,3 +1,3 @@
 # Introduction
 
-This repo has many UI components that can be resused in any javascript application.
+This package has UI components like Card, Button and TextInput that can be used in react applications.
