@@ -1,5 +1,5 @@
-import Card from "./src/components/card/index.jsx";
-import Button from "./src/components/button/index.jsx";
-import TextInput from "./src/components/input/index.jsx";
+import Card from "./src/components/card";
+import Button from "./src/components/button";
+import TextInput from "./src/components/input";
 
 export { Button, Card, TextInput };

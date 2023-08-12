@@ -21,7 +21,7 @@
   },
   "name": "@subashchandra/components",
   "description": "This package has UI components like Card, Button and TextInput that can be used in react applications..",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "main": "index.js",
   "author": "Subash Chandra",
   "license": "ISC",
